@@ -1,0 +1,8 @@
+// IMPORTO DALLA CARTELLA NODE_MODULES IL FILE DI BOOTSTRAP 
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// IMPORT PARTIALS SCSS PAGE MAIN
+@import "partials/home";
+@import "partials/prodotti";
+@import "partials/contatti";
+@import "partials/footer";

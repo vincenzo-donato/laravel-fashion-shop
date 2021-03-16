@@ -1,0 +1,12 @@
+.main-home{
+    .box{
+        display: flex;
+        h3{
+            margin-right: 10px;
+            &:hover{
+                color: rgba(0, 0, 255, 0.371);
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+main{
+    background-color: rgba(0, 0, 255, 0.213);
+    padding: 10px;
+    text-align: center;
+    .box-container{
+        display: flex;
+        justify-content: space-around;
+        .box-prodotto{
+            width: 200px;
+            background-color: rgba(128, 128, 128, 0.33);
+            padding: 10px;
+            margin: 20px;
+            &:hover{
+                cursor: pointer;
+                background-color: rgba(128, 128, 128, 0.508);
+                box-shadow: 10px 10px 10px black;
+            }
+        }
+    }
+}
+    
